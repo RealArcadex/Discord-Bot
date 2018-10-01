@@ -10,6 +10,7 @@ exports.run = (client, message, args) => {
         .setAuthor(`${user.username}'s User Info`)
         .setColor("#ff0000")
         .addField("Created At", user.createdAt)
+        .addField("User joined:", resu)
         
 
     message.channel.send(userInfo);
