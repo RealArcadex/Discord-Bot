@@ -38,4 +38,4 @@ exports.run = function(client, message, args) {
     } else {
         message.channel.send("You have no permission!")
     }
-}
+};
