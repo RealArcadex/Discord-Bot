@@ -1,2 +1,4 @@
 *.json
 settings.js
+warn.js
+ban.js
