@@ -6,9 +6,25 @@ exports.run = (client, message, args) => {
 
 
     
-    message.channel.createInvite()
-    .then(invite => 
-        message.channel.send(`**New Invite**\n\nhttps://discord.gg/${invite.code}`)
-    );
     
-}
+    
+    
+    message.channel.createInvite()
+    .then(invite =>   message.channel.send({embed: {
+        color: 	000111000,
+        title: "✅ Success!",
+        description: `Invite generated! http://discord.gg/${invite.code}`
+    }}))
+     
+
+        
+
+        
+        
+           
+
+    
+};
+
+
+
