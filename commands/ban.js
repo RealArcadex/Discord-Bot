@@ -5,6 +5,6 @@ const date = Date.now()
 
 exports.run = function(client, message, args) { 
 
-
+if(member.hasPermission("BAN_MEMBERS")) return; message.delete();
 
 }
