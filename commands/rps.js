@@ -44,10 +44,7 @@ exports.run = function(client, message, args) {
         switch(args[0]){
             case "rock":
                     message.channel.send("You chose ***" + args[0] + `*** I chose ${outcome}`);
-                    
-                   if(`${outcome}` === args[0]){
-                       message.channel.send("test")
-                   } 
+                  
             break;
             case "paper":
             message.channel.send("You chose ***" + args[0] + `*** I chose ${outcome}`);
