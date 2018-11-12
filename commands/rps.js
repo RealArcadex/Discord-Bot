@@ -44,11 +44,16 @@ exports.run = function(client, message, args) {
         switch(args[0]){
             case "rock":
                     message.channel.send("You chose ***" + args[0] + `*** I chose ${outcome}`);
-                  
+
+
+                    //
             break;
+                    //
             case "paper":
+                    //
             message.channel.send("You chose ***" + args[0] + `*** I chose ${outcome}`);
             break;
+                    //
             case "sissors":
             message.channel.send("You chose ***" + args[0] + `*** I chose ${outcome}`);   
             break;
