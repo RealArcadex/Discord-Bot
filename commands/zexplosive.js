@@ -38,6 +38,11 @@ exports.run = function(client, message, args) {
                 case "youtube":
                     message.channel.send(youtubee);
                 break;
+                case "subs":
+                message.reply("zExplosive's Subs!", {
+                    file: "https://i.imgur.com/AFF981v.png"
+                });
+                break;
                 default:
-                    message.reply('Either do `-zexplosive twitter` or `-zexplosive youtube`')
+                    message.reply('Either do `-zexplosive twitter` or `-zexplosive youtube` OR `-zexplosive subs`')
             }}}};
