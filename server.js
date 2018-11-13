@@ -15,7 +15,6 @@ client.on('message', message => {
     if (message.author.bot) return;
     if (!message.content.startsWith(prefix)) return;
     if (message.content.includes('..') || message.content.includes('.') || message.content.includes('/')) return;
-    
     try {
 
         let commandFile = require(`./commands/${cmd}.js`);

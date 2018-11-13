@@ -28,14 +28,14 @@ let tError = new Discord.RichEmbed()
     let _outcomes = Math.floor(Math.random()*outcomes.length);
     let outcome = outcomes[_outcomes] 
 
-    
-
-
+    if(message.content.includes('penis', "pp")){
+        message.reply('boi')
+    } else {
     if (message.channel.nsfw === false) {
         return message.reply(":warning: This channel isn't marked as NSFW.");
       } else {
         message.channel.send(args[0] +  ` your pp length is ${outcome}`) 
-      }
+      }};
     
     
     
