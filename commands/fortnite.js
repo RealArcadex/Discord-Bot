@@ -1,4 +1,4 @@
-/* const Discord = require("discord.js")
+const Discord = require("discord.js")
 const keys = require("../events/apikeys.json")
 const Client = require('fortnite');
 const stats = new Client(keys.fortnite);
@@ -48,4 +48,4 @@ message.channel.send(embeddd)
 
 
 }
-*/
+
