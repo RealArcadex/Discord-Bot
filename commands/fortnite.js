@@ -17,8 +17,8 @@ let usernamenotfoundembed = new Discord.RichEmbed()
 let platform;
 let username;
 
-if (!['pc', 'xbl', 'psn'].includes(args[0])) return message.channel.send("**Please include the platform:** `-fortnite [ pc | xbox | psn ] <user>`")
-if (!args[1]) return message.channel.send("**Please include a fortnite username:** `-fortnite [ pc | xbox | psn ] <user>`")
+if (!['pc', 'xbl', 'psn'].includes(args[0])) return message.channel.send("**Please include the platform:** `-fortnite [ pc | xbl | psn ] <user>`")
+if (!args[1]) return message.channel.send("**Please include a fortnite username:** `-fortnite [ pc | xbl | psn ] <user>`")
 
 platform = args.shift();
 username = args.join(' ');
